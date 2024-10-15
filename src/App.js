@@ -18,9 +18,9 @@ function App() {
     }
 
     const payload = {
+      description: description,
       language: language,
       genre: genre,
-      description: description,
     };
 
     console.log('Payload:', payload);  // Debugging log for payload
